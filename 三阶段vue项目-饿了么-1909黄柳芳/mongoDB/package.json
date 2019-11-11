@@ -1,0 +1,11 @@
+{
+  "name": "mdb-starting",
+  "version": "1.0.0",
+  "description": "启动mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "mongod --dbpath D:/mongoDB/Server/4.2/bin"
+  },
+  "author": "",
+  "license": "ISC"
+}
