@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.backTohome {
+  height: 2.666667rem;
+  background: #5e5b5b;
+  color: #fff;
+  font-size: 1.146667rem;
+  padding-left: .4rem;
+  line-height: 2.666667rem;
+  font-weight: 800;
+}
+
+.list {
+  margin-top: .266667rem;
+}
