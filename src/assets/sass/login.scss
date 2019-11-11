@@ -1,0 +1,148 @@
+.login {
+    .login_img_logo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 9.333333rem;
+
+        img {
+            display: block;
+            height: 4rem;
+        }
+    }
+
+    .login_tabbel {
+
+        // background: chartreuse;
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .log_ {
+                border: 1px solid #ccc;
+                // background: red;
+                margin-bottom: 1.333333rem;
+                ;
+                height: 2.666667rem;
+                width: 20rem;
+                position: relative;
+                border-radius: .266667rem;
+
+                input {
+                    padding-left: .4rem;
+                    box-sizing: border-box;
+                    border: none;
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                }
+
+                .getMa {
+                    display: block;
+                    color: #ccc;
+                    position: absolute;
+                    top: .666667rem;
+                    right: .266667rem;
+                    // z-index: 10;
+                }
+
+                .Tips_box {
+                    color: red;
+                    margin-top: .133333rem;
+                    font-size: .426667rem;
+                }
+
+            }
+
+            .rule {
+                width: 80%;
+                font-size: .853333rem;
+                color: #777;
+            }
+
+            .log_in {
+                margin-top: 2rem;
+                background: #58bc59;
+                display: block;
+                width: 20rem;
+                border: none;
+                height: 2.666667rem;
+                color: #fff;
+            }
+
+            .about {
+                color: #777;
+                margin-top: 1.333333rem;
+                ;
+            }
+        }
+    }
+
+    .van-popup {
+        height: 10.333333rem;
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+            margin-top: 1.333333rem;
+            margin-bottom: .533333rem;
+        }
+
+        .in {
+            position: relative;
+            width: 90%;
+            height: 2.666667rem;
+            box-shadow: 0 0 1px 1px rgb(199, 192, 192);
+
+            input {
+                border: none;
+                width: 100%;
+                height: 100%;
+            }
+
+            .code {
+                height: 100%;
+                text-align: center;
+                line-height: 2.666667rem;
+                position: absolute;
+                top: 0;
+                right: 0;
+
+                .s-canvas {
+                    font-weight: 500 !important;
+                }
+            }
+
+            #show1 {
+                color: red;
+                margin-top: .133333rem;
+                font-size: .426667rem;
+            }
+
+        }
+
+        .btn {
+            display: flex;
+            margin-top: 2rem;
+            height: 2.666667rem;
+            width: 100%;
+            background: coral;
+
+            button {
+                box-sizing: border-box;
+                border: none;
+                height: 100%;
+                width: 50%;
+            }
+
+            button:nth-child(2) {
+                color: #58c;
+            }
+        }
+    }
+
+}

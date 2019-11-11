@@ -1,28 +1,46 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <Search/>
+   <Grid/>
+   <Divider/>
+    <Card />-->
+    <keep-alive>
+      <router-view />
+    </keep-alive>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+// import Search from './components/Search.vue'
+// import Grid from './components/Grid.vue'
+// import Divider from './components/Divider.vue'
+// import Card from './components/Card.vue'
+// import Tabbar from "./components/Tabbar.vue";
+// import $ from "jquery";
+// import axios from "axios";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    HelloWorld
+    // Search,
+    // Grid,
+    // Divider,
+    // Card,
+    // Tabbar
   }
-}
+};
 </script>
+<style lang="scss">
+    @import "assets/sass/home.scss";
+    @import "assets/sass/search2.scss";
+    @import "assets/sass/mine.scss";
+    @import "assets/sass/login.scss";
+    @import "assets/sass/found.scss";
+    @import "assets/sass/detail.scss";
+    @import "assets/sass/goodlist.scss";
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+</style>
+<style scoped>
+  @import "assets/iconfont/iconfont.css";
 </style>

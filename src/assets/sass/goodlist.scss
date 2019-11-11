@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-align: none;
+}
+
+.goodlistpage {
+    // overflow: hidden;
+
+    .first_bar {
+        position: relative;
+       
+
+        .van-sticky {
+            .van-tabs__nav {
+                background-color: #58c !important;
+
+                .van-tab {
+                    color: #fff !important;
+
+                }
+
+                .van-tabs__line {
+                    position: absolute;
+                    left: 0;
+                    bottom: 1.069rem !important;
+                    z-index: 4;
+                    height: 3px;
+                    background-color: #ee0a24;
+                    border-radius: 3px;
+                }
+            }
+
+        }
+
+        .van-tabs__content {
+            margin-top: 2.066667rem;
+            // background: forestgreen;
+            // height: 40rem;
+        }
+
+        .second_bar {
+            width: 100%;
+            background: #fff !important;
+            position: fixed;
+            z-index: 20004;
+            top: 2.633333rem;
+            margin-top: 0 !important                         ;
+        }
+    }
+
+}
